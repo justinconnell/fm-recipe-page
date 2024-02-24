@@ -24,7 +24,7 @@ export class HeaderSection extends HTMLElement {
     this.recipe = app.store.recipe;
 
     this.querySelector("#header").innerHTML = `
-      <img src="/data/images/${this.recipe.image}" alt="${this.recipe.name}" />
+      <img src="https://justinconnell.github.io/fm-recipe-page/data/images/${this.recipe.image}" alt="${this.recipe.name}" />
       <h1>${this.recipe.name}</h1>
       <p>${this.recipe.description}</p>
     `;

@@ -15,7 +15,7 @@
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/font/outfit-v11-latin-regular.woff2") format("woff2");
+  src: url("https://justinconnell.github.io/fm-recipe-page/assets/font/outfit-v11-latin-regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -23,7 +23,7 @@
   font-family: "Outfit";
   font-style: normal;
   font-weight: 600;
-  src: url("/assets/font/outfit-v11-latin-600.woff2") format("woff2");
+  src: url("https://justinconnell.github.io/fm-recipe-page/assets/font/outfit-v11-latin-600.woff2") format("woff2");
 }
 
 @font-face {
@@ -31,7 +31,7 @@
   font-family: "Outfit";
   font-style: normal;
   font-weight: 700;
-  src: url("/assets/font/outfit-v11-latin-700.woff2") format("woff2");
+  src: url("https://justinconnell.github.io/fm-recipe-page/assets/font/outfit-v11-latin-700.woff2") format("woff2");
 }
 
 @font-face {
@@ -39,7 +39,7 @@
   font-family: "Young Serif";
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/font/young-serif-v2-latin-regular.woff2") format("woff2");
+  src: url("https://justinconnell.github.io/fm-recipe-page/assets/font/young-serif-v2-latin-regular.woff2") format("woff2");
 }
 
 *,
