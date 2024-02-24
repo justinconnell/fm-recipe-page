@@ -1,0 +1,76 @@
+:root {
+  --color-dark-charcoal: hsl(35, 5%, 18%);
+  --color-dark-raspberry: hsl(332, 51%, 32%);
+  --color-brandy-red: hsl(14, 45%, 36%);
+  --color-wenge-brown: hsl(30, 11%, 34%);
+  --color-egg-shell: hsl(30, 54%, 90%);
+  --color-white-coffee: hsl(30, 18%, 87%);
+  --color-snow: hsl(331, 100%, 98%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/font/outfit-v11-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/assets/font/outfit-v11-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/font/outfit-v11-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/font/young-serif-v2-latin-regular.woff2") format("woff2");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--color-egg-shell);
+  min-height: 100vh;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+@media (min-width: 768px) {
+  main {
+    margin: 12.4rem 0;
+  }
+}
